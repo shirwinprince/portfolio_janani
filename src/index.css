@@ -1,0 +1,8 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{@apply bg-cream text-ink font-sans antialiased}
+.btn{@apply inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium transition duration-300}
+.btn-p{@apply bg-forest text-cream hover:bg-ink shadow-md}
+.btn-o{@apply border border-forest text-forest hover:bg-forest hover:text-cream}
+.card{@apply bg-card border border-line rounded-2xl p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg}
+.tag{@apply inline-block text-xs px-3 py-1 rounded-full bg-ivory text-forest border border-line}
